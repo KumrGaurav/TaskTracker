@@ -1,0 +1,91 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f00;
+  /* background-image: url('back.jpg'); Replace with the path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  size : flex;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.task {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task h3 {
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.task p {
+  margin: 0;
+  color: #888;
+}
+
+.task button {
+  padding: 8px;
+  margin-left: 5px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #c82333;
+}
+
+.completed-task {
+  background-color: #d4edda;
+}
+
+.droppable-area {
+  min-height: 100px;
+}
